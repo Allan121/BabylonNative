@@ -36,8 +36,9 @@ FetchContent_Declare(ios-cmake
     GIT_REPOSITORY https://github.com/leetal/ios-cmake.git
     GIT_TAG 4.4.1)
 FetchContent_Declare(JsRuntimeHost
-    GIT_REPOSITORY https://github.com/BabylonJS/JsRuntimeHost.git
+    # GIT_REPOSITORY https://github.com/BabylonJS/JsRuntimeHost.git
     # GIT_TAG 6191427ee29c525f4b81d00b8875cdd1d5e9bf15)
+    GIT_REPOSITORY https://github.com/allan121/JsRuntimeHost.git
     GIT_TAG 6b57e73d7159e0f29f4a8fb45bbd136421e93bd9) ## Personal fork that includes forced garbage collection function
 FetchContent_Declare(OpenXR-MixedReality
     GIT_REPOSITORY https://github.com/microsoft/OpenXR-MixedReality.git
